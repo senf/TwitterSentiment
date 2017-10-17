@@ -28,7 +28,6 @@ map = Basemap(llcrnrlon=-119,llcrnrlat=22,urcrnrlon=-64,urcrnrlat=49,
 map.readshapefile('st99_d00', name='states', drawbounds=True)
 
 #gets state_names from the shapefile for shape object lookup
-#!!THIS DOES NOT HOLD THE SAME INFORMATION AS THE states LIST BELOW!!
 state_names = []
 for shape_dict in map.states_info:
     state_names.append(shape_dict['NAME'])
