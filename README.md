@@ -1,11 +1,7 @@
 libraries used:
-
 matplotlib https://matplotlib.org/
-
 tweepy http://www.tweepy.org/
-
 textblob https://textblob.readthedocs.io/en/dev/
-
 mpl_toolkits.basemap https://matplotlib.org/basemap/index.html
 
 
